@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Dev/Repositories/sample-dmitry-site-template/providers/provider.tsx"],"sourcesContent":["\"use client\";\n\nimport { HeroUIProvider } from \"@heroui/react\";\n\nexport function Providers({children}: {children: React.ReactNode})\n{\n    return <HeroUIProvider>{children}</HeroUIProvider>\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIO,SAAS,UAAU,EAAC,QAAQ,EAA8B;IAE7D,qBAAO,6LAAC,qLAAc;kBAAE;;;;;;AAC5B;KAHgB","debugId":null}}]
+}
