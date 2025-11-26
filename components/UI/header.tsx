@@ -7,13 +7,20 @@ export const MyLogo = () => (
   <Image src="/img/main-logo.png" alt="Random abstract logo" width={56} height={56} />
 );
 
+// Подключение модального окна к шапке
+import { useState } from "react";
+import { RegisterModal } from "../RegisterModal";
+
 export function Header() {
+  const [isModalOpen, setModalOpen] = useState(false);
+  
   const linksPool = [
     { name: "Главная", href: "/" },
     { name: "Проекты", href: "/projects" },
     { name: "О нас", href: "/about" },
   ];
   return (
+    <>
     <Navbar
       maxWidth="full"
       className="
@@ -60,6 +67,10 @@ export function Header() {
           <Button
             as={Link}
             href="#"
+            onClick={(e) => {
+                e.preventDefault();
+                setModalOpen(true);
+              }}
             className="
               rounded-xl px-5! py-2! font-medium shadow-md
               bg-linear-to-r from-pink-500 to-fuchsia-700
@@ -72,5 +83,11 @@ export function Header() {
         </NavbarItem>
       </NavbarContent>
     </Navbar>
+
+    <RegisterModal
+        isOpen={isModalOpen}
+        onClose={() => setModalOpen(false)}
+      />
+    </>
   );
 }
