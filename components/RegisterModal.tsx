@@ -60,7 +60,7 @@ export function RegisterModal({isOpen, onClose}: {
           <div className="flex flex-col gap-4 mt-4 pb-2">
             <input
               type="text"
-              placeholder="Имя пользователя"
+              placeholder="Имя пользователяt"
               className="
                 border border-gray-300 rounded-lg px-3 py-2
                 focus:outline-none focus:ring-2 focus:ring-fuchsia-500
