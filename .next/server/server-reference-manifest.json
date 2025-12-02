@@ -1,0 +1,28 @@
+{
+  "node": {
+    "409d85da7768dd95a7ffb6c088fe96a6bec72cb106": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": 67438,
+          "async": true,
+          "exportedName": "registerUser",
+          "filename": "app/actions/register.ts"
+        },
+        "app/page": {
+          "moduleId": 95410,
+          "async": true,
+          "exportedName": "registerUser",
+          "filename": "app/actions/register.ts"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
+      },
+      "filename": "app/actions/register.ts",
+      "exportedName": "registerUser"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "qDGrQLM1IqJyg4Amix/hBPLlexneTdg6k4XrwMb4gqw="
+}
