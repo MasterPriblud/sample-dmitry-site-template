@@ -56,35 +56,26 @@ function RegisterModal({ isOpen, onClose }) {
             onClick: onClose,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 onClick: (e)=>e.stopPropagation(),
-                className: "   relative   rounded-2xl    shadow-xl shadow-fuchsia-900/20   border border-white/10   bg-gradient-to-br from-white via-fuchsia-50 to-fuchsia-100   dark:from-gray-900 dark:via-fuchsia-950 dark:to-fuchsia-900      p-6   w-[90%] max-w-md      transform transition-all duration-200   animate-[modalShow_0.2s_ease-out]   ",
+                className: "   relative   rounded-2xl    shadow-xl shadow-fuchsia-900/20   border border-white/10   bg-linear-to-br from-white via-fuchsia-50 to-fuchsia-100   dark:from-gray-900 dark:via-fuchsia-950 dark:to-fuchsia-900      p-6   w-[90%] max-w-md      transform transition-all duration-200   animate-[modalShow_0.2s_ease-out]   ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col gap-1 text-fuchsia-800 font-semibold text-xl",
                         children: "Регистрация"
                     }, void 0, false, {
                         fileName: "[project]/components/RegisterModal.tsx",
-                        lineNumber: 55,
+                        lineNumber: 44,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col gap-4 mt-4 pb-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                type: "text",
-                                placeholder: "Имя пользователя",
-                                className: "   border border-gray-300 rounded-lg px-3 py-2   focus:outline-none focus:ring-2 focus:ring-fuchsia-500   "
-                            }, void 0, false, {
-                                fileName: "[project]/components/RegisterModal.tsx",
-                                lineNumber: 61,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                 type: "email",
                                 placeholder: "Email",
                                 className: "   border border-gray-300 rounded-lg px-3 py-2   focus:outline-none focus:ring-2 focus:ring-fuchsia-500   "
                             }, void 0, false, {
                                 fileName: "[project]/components/RegisterModal.tsx",
-                                lineNumber: 70,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -93,7 +84,7 @@ function RegisterModal({ isOpen, onClose }) {
                                 className: "   border border-gray-300 rounded-lg px-3 py-2   focus:outline-none focus:ring-2 focus:ring-fuchsia-500   "
                             }, void 0, false, {
                                 fileName: "[project]/components/RegisterModal.tsx",
-                                lineNumber: 79,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -102,13 +93,13 @@ function RegisterModal({ isOpen, onClose }) {
                                 className: "   border border-gray-300 rounded-lg px-3 py-2   focus:outline-none focus:ring-2 focus:ring-fuchsia-500   "
                             }, void 0, false, {
                                 fileName: "[project]/components/RegisterModal.tsx",
-                                lineNumber: 88,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/RegisterModal.tsx",
-                        lineNumber: 60,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -120,40 +111,46 @@ function RegisterModal({ isOpen, onClose }) {
                                 children: "Отмена"
                             }, void 0, false, {
                                 fileName: "[project]/components/RegisterModal.tsx",
-                                lineNumber: 100,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>AddUser(),
                                 className: "   px-4 py-2 rounded-lg   bg-fuchsia-600 text-white   hover:bg-fuchsia-700   shadow-md shadow-fuchsia-900/20   font-medium   transition-colors   ",
                                 children: "Создать аккаунт"
                             }, void 0, false, {
                                 fileName: "[project]/components/RegisterModal.tsx",
-                                lineNumber: 112,
+                                lineNumber: 92,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/RegisterModal.tsx",
-                        lineNumber: 99,
+                        lineNumber: 79,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/RegisterModal.tsx",
-                lineNumber: 37,
+                lineNumber: 26,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/RegisterModal.tsx",
-            lineNumber: 28,
+            lineNumber: 17,
             columnNumber: 7
         }, this)
     }, void 0, false);
 }
 _s(RegisterModal, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = RegisterModal;
-var _c;
+function AddUser() {
+    console.log("pep");
+}
+_c1 = AddUser;
+var _c, _c1;
 __turbopack_context__.k.register(_c, "RegisterModal");
+__turbopack_context__.k.register(_c1, "AddUser");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

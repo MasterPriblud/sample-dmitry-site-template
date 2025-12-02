@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Dev/Repositories/sample-dmitry-site-template/.next-internal/server/app/page/actions.js%20%28server%20actions%20loader%29"],"sourcesContent":["export {Header as '0073f93c86b18252788f690562acd21b7d16b259f1'} from 'ACTIONS_MODULE0'\nexport {MyLogo as '7ff2681c205562435b2ea1abf94633bb5e071a6883'} from 'ACTIONS_MODULE0'\nexport {RegisterModal as '40aaf00b198cc0455109ded1d3961b82305d46df95'} from 'ACTIONS_MODULE1'\nexport {registerUser as '40072251363f969e4e2645ead0de172a2b9726535e'} from 'ACTIONS_MODULE2'\n"],"names":[],"mappings":";AAAA;AAEA;AACA","debugId":null}}]
+}

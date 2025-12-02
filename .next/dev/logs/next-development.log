@@ -1,72 +1,9 @@
-[00:00:00.767] Server  LOG      ✓ Ready in 481ms
-[00:00:08.091] Server  LOG      ○ Compiling / ...
-[00:00:12.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:28.045] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:34.186] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:11.647] Server  LOG      ✓ Compiled in 28ms
-[00:03:21.104] Server  LOG      ✓ Compiled in 22ms
-[00:03:22.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:37.354] Server  LOG      ✓ Compiled in 29ms
-[00:04:39.285] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:52.444] Server  LOG      ✓ Compiled in 26ms
-[00:05:11.722] Server  LOG      ✓ Compiled in 26ms
-[00:05:12.395] Browser ERROR   ./components/RegisterModal.tsx:90:10
-Parsing ecmascript source code failed
-  88 |             </ModalFooter>
-  89 |           
-> 90 |         )}
-     |          ^
-  91 |       </ModalContent>
-  92 |     </Modal>
-  93 |     );
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import traces:
-  Client Component Browser:
-    ./components/RegisterModal.tsx [Client Component Browser]
-    ./components/UI/header.tsx [Client Component Browser]
-    ./components/UI/header.tsx [Server Component]
-    ./app/layout.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/RegisterModal.tsx [Client Component SSR]
-    ./components/UI/header.tsx [Client Component SSR]
-    ./components/UI/header.tsx [Server Component]
-    ./app/layout.tsx [Server Component]
-[00:05:18.398] Browser ERROR   ./components/RegisterModal.tsx:51:24
-Parsing ecmascript source code failed
-  49 |             </ModalHeader>
-  50 |
-> 51 |             <ModalBody className="gap-4 pb-2">
-     |                        ^^^^^^^^^
-  52 |               <Input
-  53 |                 placeholder="Имя пользователя"
-  54 |                 type="text"
-
-Expected '</', got 'className'
-
-Import traces:
-  Client Component Browser:
-    ./components/RegisterModal.tsx [Client Component Browser]
-    ./components/UI/header.tsx [Client Component Browser]
-    ./components/UI/header.tsx [Server Component]
-    ./app/layout.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/RegisterModal.tsx [Client Component SSR]
-    ./components/UI/header.tsx [Client Component SSR]
-    ./components/UI/header.tsx [Server Component]
-    ./app/layout.tsx [Server Component]
-[00:07:17.671] Server  LOG      ✓ Compiled in 110ms
-[00:07:18.189] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:22.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:32.949] Server  LOG      ✓ Compiled in 16ms
-[00:07:36.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:51.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:23.279] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:25.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:25.386] Server  LOG      ✓ Compiled in 81ms
-[00:11:25.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:30.699] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:48.541] Server  LOG      ✓ Compiled in 27ms
+[00:00:00.851] Server  LOG      ✓ Ready in 530ms
+[00:00:03.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.764] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:31.516] Server  ERROR    ⨯ PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
+Read more at https://pris.ly/d/client-constructor
+[00:00:32.781] Browser ERROR   {"digest":"785587100","environmentName":"Server","name":"PrismaClientConstructorValidationError"}
+[00:01:38.133] Server  LOG     User registered successfully:  {}
+[00:01:38.239] Browser LOG     undefined

@@ -34,7 +34,7 @@ export function Header() {
       <NavbarBrand className="gap-3 items-center">
         <MyLogo />
         <p className="font-semibold text-xl text-gray-800 tracking-tight hover:text-indigo-700 transition-colors">
-          Дмитриевский сайт!
+          Дмитриевский сайт
         </p>
       </NavbarBrand>
 
